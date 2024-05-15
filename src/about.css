@@ -1,0 +1,23 @@
+/* ABout US */
+.blocks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.col{
+    flex: 0 0 0%;
+}
+h2{
+    padding: 5px;
+    margin: 5px;
+    text-shadow: none;
+}
+.intro{
+    background-image: url(https://t4.ftcdn.net/jpg/03/07/56/71/360_F_307567102_lcPJUW10EdNeMKBTyUFg41QDWSFg6f0h.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 2px 2px 1.5px rgb(0 0 0);
+    font-size: large;
+    color: rgb(255 188 0 / 55%);
+}
