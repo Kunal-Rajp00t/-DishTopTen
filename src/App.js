@@ -43,7 +43,7 @@ function App() {
   }
   const getSearch = (e) => {
     e.preventDefault();
-    setQuerry(search);
+    setQuerry(search.toLowerCase());
     setSearch("");
   }
 
